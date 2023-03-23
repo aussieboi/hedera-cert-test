@@ -1,11 +1,15 @@
 {
   "name": "hedera-certification",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "multi-signature": "node ./multi-signature/multi-signature.js",
+   "setup":"node ./setup/setup.js",
+   "schedule-transaction":"node ./schedule-transaction/schedule-transaction.js",
+   "token-service":"node ./token-service/token-service.js",
+   "smart-contract":"node ./smart-contract/smart-contract.js",
+   "consensus":"node ./consensus/consensus.js"
   },
   "keywords": [],
   "author": "",
